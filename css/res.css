@@ -1,0 +1,186 @@
+@media only screen and (max-width:768px) {
+    .container{
+        max-width: 100%;
+    }
+   
+.header{
+    width: 100%;
+    padding: 0;
+} 
+.nav__logo a{
+    display: none;
+}
+
+.nav__logo .fa-magnifying-glass{
+    display: none;
+}
+.nav__logo button{
+    display: none;
+}
+
+.hosting__content{
+    display: grid;
+    grid-template-columns:100%;
+    gap: 1rem;
+}
+
+.hosting__item h2{
+    font-size: 2.5rem;
+}  
+.hosting__item p{
+    font-size: 1rem;
+}
+.hosting__item h3{
+    font-size: 2.5rem;
+}
+.hosting__item .img img{
+    display: none;
+}
+
+.search{
+    width: 100%;
+    padding: 0rem 0rem;
+}
+.search .title h2{
+    font-size: 2rem;
+}
+.com__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+.com__item h3{
+    font-size: 1.5rem;
+}
+.com__item b{
+    font-size: 8px;
+}
+
+.welcome{
+    width: 100%;
+    padding: 0rem 0rem;
+}
+.welcome__content{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.welcome__item h2{
+    font-size: 2rem;
+}
+.welcome__item p{
+    width: 100%;
+}
+.number__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+    margin-left: 20%;
+    margin-bottom: 1rem;
+}
+
+.hosting{
+    width: 100%;
+    padding: 0rem 0rem;
+}
+.hosting .title h2{
+    font-size: 2.5rem;
+}
+.hosting .title p{
+    font-size: 1rem;
+    width: 100%;
+    margin-left: 0%;
+}
+.share__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+}
+
+.shared{
+    width: 100%;
+    padding:0rem 0rem;
+}
+
+.server__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2rem;
+}
+.uptime__content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+
+.profession{
+    width: 100%;
+    padding: 0rem 0rem;
+}
+.profession__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 2rem;
+    text-align: center;
+}
+.profession__item{
+    margin-top: 4rem;
+}
+
+.ful__content{
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.footer__content{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 2rem;
+    border-bottom: 1px solid #fff;
+}
+
+.site{
+    display: flex;
+    justify-content:  space-around;
+    margin-top: 2rem;
+}
+}
+
+@media only screen  and (max-width:368px) {
+    .container{
+        max-width: 100%;
+    }
+    .shared .title h2{
+        font-size: 1.5rem;
+    }
+    
+.title h2{
+    font-size: 2rem;
+}
+.footer__content{
+    display: grid;
+    grid-template-columns:100%;
+    gap: 0.5rem;
+    border-bottom: 1px solid #fff;
+}
+.footer__item h2{
+    font-size: 1rem;
+    color: aqua;
+}
+
+.footer__item a{
+    color: black;
+}
+
+.banner{
+    width: 100%;
+    padding: 0.8rem 0;
+}
+.hosting__item h2{
+    font-size: 1.8rem;
+}  
+.hosting__item p{
+    font-size: 0.7rem;
+}
+}
