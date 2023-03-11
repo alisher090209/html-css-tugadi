@@ -161,6 +161,10 @@
     .shared .title h2{
         font-size: 1.5rem;
     }
+    .uptime__item p{
+        width: 100%;
+        font-size: 0.9rem;
+    }
     
 .title h2{
     font-size: 2rem;
