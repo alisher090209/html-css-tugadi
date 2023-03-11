@@ -151,6 +151,13 @@
     .container{
         max-width: 100%;
     }
+    
+.com__item h3{
+    font-size: 2.5rem;
+}
+.com__item b{
+    font-size: 15px;
+}
     .shared .title h2{
         font-size: 1.5rem;
     }
